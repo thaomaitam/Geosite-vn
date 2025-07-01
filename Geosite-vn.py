@@ -42,16 +42,16 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     urls = [
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/block.json",
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/adway.json",
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/adservers.json",
-        "https://github.com/Thaomtam/sing-box-rule-set-vn/raw/rule-set/adway.json",
-        "https://github.com/Thaomtam/sing-box-rule-set-vn/raw/rule-set/easylist.json",
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/MVPS.json",
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/yoyo.json",
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/threat.json",
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/d3host.json",
-        "https://raw.githubusercontent.com/Thaomtam/sing-box-rule-set-vn/rule-set/abpvn.json"
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/block.json",
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/adway.json",
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/adservers.json",
+        "https://github.com/thaomaitam/sing-box-rule-set-vn/raw/rule-set/adway.json",
+        "https://github.com/thaomaitam/sing-box-rule-set-vn/raw/rule-set/easylist.json",
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/MVPS.json",
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/yoyo.json",
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/threat.json",
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/d3host.json",
+        "https://raw.githubusercontent.com/thaomaitam/sing-box-rule-set-vn/rule-set/abpvn.json"
     ]
 
     unique_domains = set()
